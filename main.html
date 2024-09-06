@@ -11,29 +11,51 @@
     <header>
         Site do Maycon
     </header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="main.html">Home</a></li>
-            <li><a href="quimica.html">Química</a></li>
-            <li><a href="tech.html">Tecnologia</a></li>
-            <li><a href="bottons.html">Bottons</a></li>
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div id="nav" class="p-4">
+        <h6 class="text-body-emphasis h4"><a href="main.html" id="nav">Página Inicial</a></h6>
+            <span class="text-body-secondary">Retorne à Página Inicial</span> 
+        <h6 class="text-body-emphasis h4"><a href="quimica.html" id="nav">Química</a></h6>
+            <span class="text-body-secondary">Minha primeira formação</span>
+        <h6 class="text-body-emphasis h4"><a href="tech.html" id="nav">Tecnologia</a></h6>
+            <span class="text-body-secondary">Um outro caminho profissional</span>
+        <h6 class="text-body-emphasis h4"><a href="bottons.html" id="nav">Bottons</a></h6>
+            <span class="text-body-secondary">Criando meu negócio</span>
+        </div>
+    </div>
+    <nav id="nav" class="navbar navbar-dark">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </div>
+    </nav>
+    <section id="sobreMim" name="sobreMim">
+        <p>
+            Me chamo Maycon Manini e este projeto foi criado como uma atividade avaliativa na disciplina de "Desenvolvimento Frontend"; mas pretendo dar continuidade futuramente como uma espécie de portifólio.
+            Por enquanto, não há muito na Página Inicial... Fique a vontade para ver as demais
+        </p>
+        <p class="Lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis natus nulla dolore aspernatur voluptate cum ad molestiae voluptatum quam ab ullam dignissimos, iusto corporis enim facere in tenetur illo.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, ad! Aliquid saepe nesciunt dolorum sunt, quaerat dolor, distinctio sint totam quo consequuntur enim vero, natus laudantium culpa veritatis velit ratione.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum fugiat recusandae sequi excepturi nostrum quis, labore amet? Hic eum cum unde quod fugiat, est molestiae natus! Fugit officia voluptas atque.
+        </p>
+    </section>
+    <nav class="btn_social">          
+        <ul>
+            <li>
+                <a href="http://www.instagram.com/pocket.bottons/"  target="_blank" title="Instagram"><i class="icon icon-instagram"></i>
+                    <img src="img/insta.img" alt="Pocket Bottons on Instagram"></a>
+            </li>
+            <li>
+                <a href="https://github.com/mayconmanini" target="_blank" title="GitHub"><i class="icon icon-github"></i>
+                    <img src="img/github.img"></a>
+            </li>
+            <li><a href="https://br.linkedin.com/in/mayconmanini" target="_blank" title="LinkdIn"><i class="icon icon-linkedin"></i>
+                    <img src="img/linkedin.img"></a>
+            </li>            
         </ul>
-    </nav>  
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+     </nav>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
